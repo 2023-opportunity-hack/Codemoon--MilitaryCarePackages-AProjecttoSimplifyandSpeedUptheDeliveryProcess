@@ -1,0 +1,24 @@
+import requests
+
+url = (
+    "https://secure.shippingapis.com/ShippingAPI.dll?API=Verify"
+    "&XML=<AddressValidateRequest USERID='4BLUES8669I13' "
+    "PASSWORD='2509XL40SQ7216J'>"
+    "<Address ID='0'>"
+    "<Address1></Address1>"
+    "<Address2>500 E University Dr.</Address2>"
+    "<City>Tempe</City>"
+    "<State>AZ</State>"
+    "<Zip5>85281</Zip5>"
+    "<Zip4></Zip4>"
+    "</Address>"
+    "</AddressValidateRequest>"
+)
+
+response = requests.get(url)
+
+if response.status_code == 200:
+    # Process the response data here
+    print(response.text)
+else:
+    print(f"Request failed with status code {response.status_code}")

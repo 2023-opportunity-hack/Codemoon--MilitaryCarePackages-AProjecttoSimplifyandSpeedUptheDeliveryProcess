@@ -33,38 +33,40 @@ There are 3 entities
 
 ### User View
 
-
+1. Military Care Package Request
 ![CarePackageRequest](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/aabf1a82-bad1-4bd6-a599-40d6db9a0cfb)
+2. Shipping Label
 ![ShippingLabel](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/04326096-99cf-4431-b93d-0bf9750e040b)
+3. ShippingLabelEmail
 ![ShippingLabelEmail](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/fa78703d-a93a-4a52-9e8a-34a652363a4c)
+4. Multilingual
 ![Multilingual](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/6ea8f2d3-0642-4252-9e3c-a1d5a5767d6f)
+5. Donation Page - Shortest inventory list
 ![DonationPage1](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/c997c58a-bd37-4d1f-a14b-3da25ae9767f)
+6. Donation Page - Donating to the Blue Star Mothers of Maricopa
 ![DonationPage2](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/8e348c36-c29c-4315-83de-3caf6dd4ca1b)
 
 
 
 ### Blue Star Mothers of Marizopa / Military Mom view
 
-![LoginPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/64e9c01b-b841-4641-99cd-24f8a5f1b10e)
-![InventoryPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/122e6f08-1237-46c1-9305-b39a453aada3)
-![MilitaryMomPackageRequests](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/e238fee1-a9d8-4840-b328-6281d802d31a)
+1. ![LoginPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/64e9c01b-b841-4641-99cd-24f8a5f1b10e)
+2. ![InventoryPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/122e6f08-1237-46c1-9305-b39a453aada3)
+3. ![MilitaryMomPackageRequests](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/e238fee1-a9d8-4840-b328-6281d802d31a)
 
 
 ## Challenges
 - Logistics and Supply Chain Management: Managing the procurement, storage, and transportation of essential supplies efficiently to meet the needs of military personnel in various locations can be complex, especially during deployments and in remote areas.
 
+- Data Security: Protecting sensitive information about the delivery process and recipient details is crucial, as data breaches could pose security risks.
+
+
 - Security and Safety: Ensuring the security and safety of the supply chain is paramount. There is often a need to protect supplies from theft, tampering, or damage. Additionally, personnel involved in the delivery may face security risks in certain locations.
 
 - Customs and Import/Export Regulations: If delivering supplies internationally, navigating customs and import/export regulations and ensuring compliance with them can be a significant challenge.
 
-- Inventory Management: Properly managing inventory to prevent shortages or overstocking while ensuring a variety of essential items are available can be a logistical challenge.
-
 - Transportation Challenges: Ensuring that supplies reach their intended destinations, which could be in remote, conflict-ridden, or geographically challenging areas, requires a reliable transportation network. Adverse weather conditions or inadequate infrastructure may complicate the process.
-
-- Communication and Coordination: Effective communication and coordination with military units or authorities, suppliers, and delivery personnel are essential to ensure that packages reach the right recipients on time.
-
-- Cultural Sensitivity: Understanding and respecting local customs and cultures where the packages are delivered is important to avoid misunderstandings or conflicts.
-
+  
 - Scalability: The ability to scale the delivery operation rapidly in response to changing needs or unexpected crises is crucial, as military operations can be dynamic and unpredictable.
 
 - Technological Challenges: Implementing tracking and monitoring systems for packages to ensure their timely delivery may be challenging in areas with limited technological infrastructure.
@@ -72,8 +74,6 @@ There are 3 entities
 - Cost Management: Managing the costs associated with procurement, storage, transportation, and distribution of essential needs packages can be complex, and balancing the budget effectively is critical.
 
 - Quality Control: Ensuring that the supplies meet quality standards and are suitable for the intended use is important to provide the best support to military personnel.
-
-- Data Security: Protecting sensitive information about the delivery process and recipient details is crucial, as data breaches could pose security risks.
 
 - Humanitarian Considerations: Providing humanitarian aid in conflict zones requires careful consideration of the political, ethical, and legal implications, as well as adherence to international humanitarian laws.
 

@@ -13,7 +13,12 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "fs": "^0.0.1-security",
     "mongoose": "^7.6.0",
-    "nodemon": "^3.0.1"
+    "node-downloader-helper": "^2.1.9",
+    "nodemailer": "^6.9.5",
+    "nodemon": "^3.0.1",
+    "request-promise-native": "^1.0.9",
+    "shippo": "^1.7.1"
   }
 }

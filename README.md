@@ -29,6 +29,27 @@ There are 3 entities
 2. Military Mom - The moms that are helping in making the packages and also the moms that re placing request for the package.
 3. Blue star Mothers of Arizona AZ 7 - The company which manages the courier of the packages with the USPS(United States Postal Service).
 
+## Implementation Phtotos
+
+### User View
+
+
+![CarePackageRequest](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/aabf1a82-bad1-4bd6-a599-40d6db9a0cfb)
+![MilitaryMomPackageRequests](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/e238fee1-a9d8-4840-b328-6281d802d31a)
+![ShippingLabel](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/04326096-99cf-4431-b93d-0bf9750e040b)
+![ShippingLabelEmail](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/fa78703d-a93a-4a52-9e8a-34a652363a4c)
+![Multilingual](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/6ea8f2d3-0642-4252-9e3c-a1d5a5767d6f)
+![DonationPage1](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/c997c58a-bd37-4d1f-a14b-3da25ae9767f)
+![DonationPage2](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/8e348c36-c29c-4315-83de-3caf6dd4ca1b)
+
+
+
+### Blue Star Mothers of Marizopa / Military Mom view
+
+![InventoryPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/122e6f08-1237-46c1-9305-b39a453aada3)
+![LoginPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/64e9c01b-b841-4641-99cd-24f8a5f1b10e)
+
+
 ## Challenges
 - Logistics and Supply Chain Management: Managing the procurement, storage, and transportation of essential supplies efficiently to meet the needs of military personnel in various locations can be complex, especially during deployments and in remote areas.
 

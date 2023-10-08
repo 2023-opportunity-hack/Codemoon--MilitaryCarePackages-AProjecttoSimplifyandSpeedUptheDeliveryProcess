@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import { Form, Button, Container, Row, Col, Table } from 'react-bootstrap';
 import './Donations.css'
 
@@ -7,11 +8,19 @@ function Donations() {
   const [itemQuantity, setItemQuantity] = useState('');
   const [expiryDate, setExpiryDate] = useState('');
   const [itemType, setItemType] = useState('');
+  const [dataItems, setDataItems] = useState([]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     // You can handle the form submission here and send the data to your backend or perform any other necessary actions.
+    axios.post('http://localhost:8000/itemInventory/postItemInventoryInfo', {
+        itemName: itemName,
+        itemQuantity: itemQuantity,
+        itemType: itemType
+      }).then(res => {
+        console.log(res);
+      });
     console.log({
       itemName,
       itemQuantity,
@@ -21,52 +30,33 @@ function Donations() {
 
     // Clear the form fields after submission
     setItemName('');
-    setItemQuantity('0');
+    setItemQuantity('');
     setExpiryDate('');
     setItemType('');
   };
 
-  const dummyDonationItems = [
-    {
-      id: 1,
-      itemName: "Blankets",
-      itemQuantity: 20,
-      itemType: "Warmth",
-    },
-    {
-      id: 2,
-      itemName: "Canned Food",
-      itemQuantity: 50,
-      itemType: "Food",
-    },
-    {
-      id: 3,
-      itemName: "Toothbrushes",
-      itemQuantity: 100,
-      itemType: "Hygiene",
-    },
-    {
-      id: 4,
-      itemName: "Socks",
-      itemQuantity: 80,
-      itemType: "Clothing",
-    },
-    {
-      id: 5,
-      itemName: "Shampoo",
-      itemQuantity: 30,
-      itemType: "Hygiene",
-    }
-  ];
+  useEffect(() => {
+    axios.get('http://localhost:8000/itemInventory/getItemInventoryInfo?lowestCount=5')
+      .then(res => {
+          // console.log(res.data);
+          setDataItems(res.data);
+
+      });
+  }, []);
 
   return (
-    <Container className='pt-5'>
-      <h4 className='flashy-highlight'>📢📢 Join Us in Supporting Our Troops: Donate Essential Items Today!</h4>
+    <Container>
+      <h4 className='flashy-highlight'>Join Us in Supporting Our Troops: Donate Essential Items Today!</h4>
 
       <p className='text-center'>
-      Join us in honoring our military heroes by contributing items that can enhance their daily lives while they protect our freedoms. Your donations of personal care items, snacks, and other necessities are greatly appreciated.
+      Our dedicated military members endure demanding conditions during their service. Your generosity in 
+      donating essential items, such as socks, hygiene products, and non-perishable snacks, can profoundly 
+      impact their well-being. Your support will aid us in providing these heroes with the crucial necessities they require.
       </p>
 
+      <blockquote className='blockquote'>
+        Below is a list of items that will greatly assist us in supporting our troops:
+      </blockquote>
       <Table striped bordered hover>
         <thead>
           <tr>
@@ -77,7 +67,7 @@ function Donations() {
           </tr>
         </thead>
         <tbody>
-          {dummyDonationItems.map((item, index) => (
+          {dataItems.map((item, index) => (
             <tr key={item.id}>
               <td>{index + 1}</td>
               <td>{item.itemName}</td>
@@ -132,6 +122,7 @@ function Donations() {
                 onChange={(e) => setItemType(e.target.value)}
                 required
               >
+                <option value="">Select Item Type</option>
                 <option value="Cookies">Cookies</option>
                 <option value="Bread">Bread</option>
                 <option value="Canned food">Canned food</option>

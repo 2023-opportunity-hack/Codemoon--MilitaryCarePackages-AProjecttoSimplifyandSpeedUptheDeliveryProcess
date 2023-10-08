@@ -1,11 +1,17 @@
 import logo from './logo.svg';
-import { CustomerForm } from "./Components";
+import { CustomerForm, CustomNavbar } from "./Components";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-       <CustomerForm />
+      <CustomNavbar />
+      <div className="app-container">
+        <div className="ui-box">
+          <CustomerForm />
+      </div>
+      </div>
+      
     </div>
   );
 }

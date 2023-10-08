@@ -1,0 +1,8 @@
+.form-container {
+	flex: 1; /* Takes up 50% of the page */
+	padding: 20px;
+}
+
+.form-container Form.Group {
+	padding: 20px;
+}

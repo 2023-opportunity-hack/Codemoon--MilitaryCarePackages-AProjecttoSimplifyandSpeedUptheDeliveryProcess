@@ -35,7 +35,6 @@ There are 3 entities
 
 
 ![CarePackageRequest](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/aabf1a82-bad1-4bd6-a599-40d6db9a0cfb)
-![MilitaryMomPackageRequests](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/e238fee1-a9d8-4840-b328-6281d802d31a)
 ![ShippingLabel](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/04326096-99cf-4431-b93d-0bf9750e040b)
 ![ShippingLabelEmail](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/fa78703d-a93a-4a52-9e8a-34a652363a4c)
 ![Multilingual](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/6ea8f2d3-0642-4252-9e3c-a1d5a5767d6f)
@@ -46,8 +45,9 @@ There are 3 entities
 
 ### Blue Star Mothers of Marizopa / Military Mom view
 
-![InventoryPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/122e6f08-1237-46c1-9305-b39a453aada3)
 ![LoginPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/64e9c01b-b841-4641-99cd-24f8a5f1b10e)
+![InventoryPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/122e6f08-1237-46c1-9305-b39a453aada3)
+![MilitaryMomPackageRequests](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/e238fee1-a9d8-4840-b328-6281d802d31a)
 
 
 ## Challenges

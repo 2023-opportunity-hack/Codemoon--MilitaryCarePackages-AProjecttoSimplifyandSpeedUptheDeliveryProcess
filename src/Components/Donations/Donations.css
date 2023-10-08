@@ -1,0 +1,22 @@
+.flashy-highlight {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #f06, #ff9900);
+    background-size: 200% 200%;
+    animation: flashyHighlight 3s ease infinite;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  @keyframes flashyHighlight {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

@@ -1,6 +1,7 @@
 import React from 'react';
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import { Navbar, Container } from 'react-bootstrap';
-import './CustomNavbar.css';
+import "./CustomNavbar.css"
 
 const CustomNavbar = () => {
   return (
@@ -22,14 +23,10 @@ const CustomNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link 1
-              </a>
+              <Link to="/" className='nav-link text-white'> Home </Link> 
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link 2
-              </a>
+              <Link to="/donations" className='nav-link text-white'> Donations </Link>
             </li>
             {/* Add more links as needed */}
           </ul>

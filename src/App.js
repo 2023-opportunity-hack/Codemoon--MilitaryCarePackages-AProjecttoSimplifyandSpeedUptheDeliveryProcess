@@ -1,17 +1,18 @@
 import logo from './logo.svg';
-import { CustomerForm, CustomNavbar } from "./Components";
+import { CustomerForm, CustomNavbar, Donations } from "./Components";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <CustomNavbar />
-      <div className="app-container">
-        <div className="ui-box">
-          <CustomerForm />
-      </div>
-      </div>
-      
+      <Router>
+        <CustomNavbar />
+        <Routes>
+            <Route path='/' element={<CustomerForm />}/>
+            <Route path='/donations' element={< Donations />}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

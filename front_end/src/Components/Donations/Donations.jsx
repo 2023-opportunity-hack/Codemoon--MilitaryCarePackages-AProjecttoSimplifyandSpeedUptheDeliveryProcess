@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Form, Button, Container, Row, Col, Table } from 'react-bootstrap';
 import './Donations.css'
 
@@ -14,6 +14,13 @@ function Donations() {
     e.preventDefault();
 
     // You can handle the form submission here and send the data to your backend or perform any other necessary actions.
+    axios.post('http://localhost:8000/itemInventory/postItemInventoryInfo', {
+        itemName: itemName,
+        itemQuantity: itemQuantity,
+        itemType: itemType
+      }).then(res => {
+        console.log(res);
+      });
     console.log({
       itemName,
       itemQuantity,
@@ -28,12 +35,14 @@ function Donations() {
     setItemType('');
   };
 
-  axios.get('http://localhost:8000/itemInventory/getItemInventoryInfo?lowestCount=5')
+  useEffect(() => {
+    axios.get('http://localhost:8000/itemInventory/getItemInventoryInfo?lowestCount=5')
       .then(res => {
           // console.log(res.data);
           setDataItems(res.data);
 
       });
+  }, []);
 
   return (
     <Container>

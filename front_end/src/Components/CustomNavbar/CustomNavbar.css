@@ -6,4 +6,24 @@
 a {
   color: white;
 }
+
+/* CSS file (e.g., styles.css) */
+.box {
+  display: inline-block;
+  padding: 1px;
+  border: 1px solid #ccc; /* Border color */
+  background-color: #007bff; /* Background color */
+  color: #fff; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  margin-right: 10px; /* Adjust spacing */
+}
+
+.admin-box {
+  background-color: #dc3545; /* Admin box background color */
+}
+
+.user-box {
+  background-color: #28a745; /* User box background color */
+}
+
   

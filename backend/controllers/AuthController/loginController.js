@@ -4,8 +4,8 @@ const jwt = require('jsonwebtoken');
 
 const loginController = async (req, res) => {
     try {
-        const { username, password, role } = req.body;
-        console.log(username, password, role);
+        const { username, password } = req.body;
+        console.log(username, password);
         const user = await User.findOne({username: username});
 
         console.log(user);
@@ -26,7 +26,7 @@ const loginController = async (req, res) => {
         });
 
         console.log(token);
-        res.status(200).json({ token });
+        res.status(200).json({ token: token, role: user.role });
   } catch (error) {
     console.log(error);
     res.status(500).json({ error: 'Internal server error' });

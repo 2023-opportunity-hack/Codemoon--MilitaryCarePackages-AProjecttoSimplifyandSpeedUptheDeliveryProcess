@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import axios from 'axios';
 
@@ -8,6 +9,8 @@ const LoginForm = () => {
     password: '',
   });
 
+  const history = useNavigate();
+  
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -25,12 +28,20 @@ const LoginForm = () => {
       // console.log(res);
 
       const token = res.data.token;
-      console.log(token);
+      console.log(res.data);
       const setJWTInLocalStorage = (token) => {
         localStorage.setItem('token', token);
+        localStorage.setItem('role', res.data.role);
       };
       
       setJWTInLocalStorage(token);
+
+      if(res.data.role == 0) {
+        history('/inventoryView');
+      } else {
+        history('/donations')
+      }
+
     });
     console.log('Submitted Data:', formData);
   };
@@ -69,6 +80,7 @@ const LoginForm = () => {
                 </Form.Group>
             </Col>
         </Row>
+        <br></br>
         <Button variant="primary" type="submit">
             Login
         </Button>

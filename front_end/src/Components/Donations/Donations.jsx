@@ -134,6 +134,7 @@ function Donations() {
             </Form.Group>
             </Col>
           </Row>
+          <br></br>
           <Row>
             <Col>
               <Button variant="primary" type="submit">

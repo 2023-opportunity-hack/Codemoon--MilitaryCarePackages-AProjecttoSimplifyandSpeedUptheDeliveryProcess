@@ -5,6 +5,7 @@ const getUserInfo = require('./routes/UserInfo/getUserInfo.js')
 const postUserInfo = require('./routes/UserInfo/postUserInfo.js')
 const getItemInventoryInfo = require('./routes/ItemInventoryInfo/getItemInventoryInfo.js')
 const postItemInventoryInfo = require('./routes/ItemInventoryInfo/postItemInventoryInfo.js')
+const loginInfo = require('./routes/AuthInfo/LoginInfo.js')
 const app = express()
 const bodyParser = require('body-parser')
 const connectDB = require('./db/connectDB.js');
@@ -23,6 +24,7 @@ app.use('/giftInfo', getGiftInfo)
 app.use('/giftInfo', postGiftInfo)
 app.use('/itemInventory', getItemInventoryInfo)
 app.use('/itemInventory', postItemInventoryInfo)
+app.use('/auth', loginInfo)
 
 app.post('/create-label', createShippingLabelController)
 

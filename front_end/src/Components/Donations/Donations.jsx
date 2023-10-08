@@ -21,7 +21,7 @@ function Donations() {
 
     // Clear the form fields after submission
     setItemName('');
-    setItemQuantity('');
+    setItemQuantity('0');
     setExpiryDate('');
     setItemType('');
   };
@@ -60,8 +60,8 @@ function Donations() {
   ];
 
   return (
-    <Container>
-      <h4 className='flashy-highlight'>Join Us in Supporting Our Troops: Donate Essential Items Today!</h4>
+    <Container className='pt-5'>
+      <h4 className='flashy-highlight'>📢📢 Join Us in Supporting Our Troops: Donate Essential Items Today!</h4>
 
       <p className='text-center'>
       Join us in honoring our military heroes by contributing items that can enhance their daily lives while they protect our freedoms. Your donations of personal care items, snacks, and other necessities are greatly appreciated.
@@ -132,7 +132,6 @@ function Donations() {
                 onChange={(e) => setItemType(e.target.value)}
                 required
               >
-                <option value="">Select Item Type</option>
                 <option value="Cookies">Cookies</option>
                 <option value="Bread">Bread</option>
                 <option value="Canned food">Canned food</option>

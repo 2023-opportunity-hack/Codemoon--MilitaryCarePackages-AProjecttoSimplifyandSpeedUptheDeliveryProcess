@@ -100,8 +100,8 @@ There are 3 entities
 
 
 ## Contributors
-- [Ipsit Sahoo](https://devpost.com/isahoo1)
 - [Hartik Suhagiya](https://devpost.com/hmsuhagi)
+- [Ipsit Sahoo](https://devpost.com/isahoo1)
 - [DANIEL YI](https://devpost.com/dliao11)
 
 

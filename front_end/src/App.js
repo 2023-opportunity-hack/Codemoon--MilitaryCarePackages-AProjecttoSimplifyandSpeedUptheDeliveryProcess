@@ -1,5 +1,4 @@
 import { CustomerForm, CustomNavbar, Donations, InventoryView, LoginForm } from "./Components";
-import { CustomerForm, CustomNavbar, Donations } from "./Components";
 import MilitaryCarePackageRequests from './Components/MilitaryCarePackageRequests/MilitaryCarePackageRequests'
 import Customs from './Components/Customs/Customs'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";

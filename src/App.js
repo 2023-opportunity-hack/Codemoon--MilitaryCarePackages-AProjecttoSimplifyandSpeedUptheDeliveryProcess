@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { CustomerForm, CustomNavbar } from "./Components";
 import './App.css';
 

@@ -45,6 +45,9 @@ There are 3 entities
 ![DonationPage1](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/c997c58a-bd37-4d1f-a14b-3da25ae9767f)
 6. Donation Page - Donating to the Blue Star Mothers of Maricopa
 ![DonationPage2](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/8e348c36-c29c-4315-83de-3caf6dd4ca1b)
+7. Website in another language
+![GujaratiLanguageWebsite](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/0d9d0009-0819-4173-beff-3a4b824b3ba6)
+
 
 
 

@@ -10,6 +10,7 @@ const app = express()
 const bodyParser = require('body-parser')
 const connectDB = require('./db/connectDB.js');
 const cors = require('cors')
+const createShippingLabelController = require('./controllers/ShippingLabelController/createShippingLabelController.js')
 const PORT = 8000
 
 connectDB()
@@ -25,20 +26,13 @@ app.use('/itemInventory', getItemInventoryInfo)
 app.use('/itemInventory', postItemInventoryInfo)
 app.use('/auth', loginInfo)
 
-app.get('/', (req, res)=>{
-    res.send("Request received...")
-})
+app.post('/create-label', createShippingLabelController)
 
 app.post('/', (req, res)=>{ 
     const {name} = req.body; 
       console.log(req.body)
     res.send(`Welcome ${name}`); 
 }) 
-
-app.post('/api', (req, res)=>{
-    console.log(req.body)
-    res.send("Request received from post ...")
-})
 
 app.listen(PORT, ()=>{
     console.log(`Server running at PORT: ${PORT}`)

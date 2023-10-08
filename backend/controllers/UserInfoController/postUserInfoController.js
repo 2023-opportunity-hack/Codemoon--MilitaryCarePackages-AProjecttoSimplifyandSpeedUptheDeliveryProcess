@@ -11,9 +11,13 @@ const postUserInfoController = async (req, res)=>{
     // const receiverAddressLine3 = req.body.receiverAddressLine3;
     // const receiverAddressCity = req.body.receiverAddressCity;
     const receiverState = req.body.receiverState;
+    const receiverCountry = req.body.receiverCountry;
     const receiverZipCode = req.body.receiverZipCode;
     // const receiverPhone = req.body.receiverPhone;
     const receiverEmail = req.body.receiverEmail;
+    const receiverGender = req.body.receiverGender;
+    const receiverBranch = req.body.receiverBranch;
+    const receiverCarePackageType = req.body.receiverCarePackageType;
     
     console.log(req.body)
     const newUser = UserInfoModel({
@@ -26,9 +30,13 @@ const postUserInfoController = async (req, res)=>{
     //  receiverAddressLine3 ,
     //  receiverAddressCity ,
      receiverState,
+     receiverCountry,
      receiverZipCode ,
     //  receiverPhone ,
      receiverEmail ,
+     receiverGender,
+    receiverBranch,
+    receiverCarePackageType,
     })
 
     try{

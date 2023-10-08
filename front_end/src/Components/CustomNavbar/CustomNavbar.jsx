@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import { Navbar, Container } from 'react-bootstrap';
 import "./CustomNavbar.css"
 
+
 const CustomNavbar = () => {
   const jwtToken = localStorage.getItem('token');
 
@@ -10,7 +11,7 @@ const CustomNavbar = () => {
     <Navbar className="custom-navbar" expand="lg">
       <Container>
         {/* Space for your icon */}
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <img
             src="bsma.webp" // Replace with the path to your icon image
             alt="Icon"
@@ -39,6 +40,16 @@ const CustomNavbar = () => {
             <li className='nav-item'>
               <Link to='/login' className='nav-link text-white'> Login </Link>
             </li>}
+            <li className="nav-item">
+              <Link to="/donations" className='nav-link text-white'> Donations </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/military-care-package-requests" className='nav-link text-white'> Package Requests </Link>
+            </li>
+            <li>
+            <div id="google_translate_element"></div>
+            </li>
+            {/* Add more links as needed */}
           </ul>
         </Navbar.Collapse>
       </Container>

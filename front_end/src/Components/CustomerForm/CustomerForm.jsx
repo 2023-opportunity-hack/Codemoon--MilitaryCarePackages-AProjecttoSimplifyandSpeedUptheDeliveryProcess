@@ -239,6 +239,7 @@ class CustomerForm extends Component {
               </Row>
               <Row>
                 <Col>
+                <br />
                   <Button type="submit">Submit</Button>
                 </Col>
               </Row>

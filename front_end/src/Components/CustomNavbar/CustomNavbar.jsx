@@ -31,6 +31,9 @@ const CustomNavbar = () => {
             <li className='nav-item'>
               <Link to='/inventoryView' className='nav-link text-white'> Inventory </Link>
             </li>
+            <li className='nav-item'>
+              <Link to='/login' className='nav-link text-white'> Login </Link>
+            </li>
           </ul>
         </Navbar.Collapse>
       </Container>

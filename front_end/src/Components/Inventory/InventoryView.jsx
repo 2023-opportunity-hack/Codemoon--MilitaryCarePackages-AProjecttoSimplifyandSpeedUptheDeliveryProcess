@@ -1,7 +1,9 @@
 import axios from 'axios';
 import React from 'react'
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import { useState, useEffect } from "react";
+
+import GiftPicker from './../GiftPicker/GiftPicker'
 
 
 const InventoryView = () => {
@@ -18,8 +20,14 @@ const InventoryView = () => {
       }, []);
   
     return (
+    
     <Container className='pt-5'>
-      <table className="table table-bordered">
+      <GiftPicker />
+      <hr></hr>
+      <h3 className='pt-2'>
+        INVENTORY
+      </h3>
+      <table className="table table-bordered pt-2">
         <thead style={{backgroundColor: "#181868", color: "white"}}>
           <tr>
             <th>Item Name</th>

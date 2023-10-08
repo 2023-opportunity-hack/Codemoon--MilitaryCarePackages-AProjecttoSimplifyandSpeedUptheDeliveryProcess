@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Form, Button, Container, Row, Col, FormCheck, FormGroup } from "react-bootstrap";
 import './CustomerForm.css'
+import axios from 'axios';
 
 class CustomerForm extends Component {
   constructor() {
@@ -29,7 +30,53 @@ class CustomerForm extends Component {
   // Define a function to handle form submission
   handleSubmit = (event) => {
     event.preventDefault();
-    // Do something with the form data, e.g., send it to an API
+    
+    console.log(this.state.receiverState)
+
+    axios.post("http://localhost:8000/userInfo/postUserInfo", {
+      receiverFirstName: this.state.firstName,
+    // receiverMiddleName: ,
+    receiverLastName: this.state.lastName,
+    // receiverCompanyName: ,
+    receiverAddressLine1: this.state.address1,
+    receiverAddressLine2: this.state.address2,
+    // receiverAddressLine3: ,
+    // receiverAddressCity: ,
+    receiverState: this.state.state,
+    receiverCountry: this.state.country,
+    receiverZipCode: this.state.zipCode,
+    // receiverPhone: ,
+    receiverEmail: this.state.email,
+    receiverGender: this.state.selectedGender,
+    receiverBranch: this.state.selectedBranch,
+    receiverCarePackageType: this.state.selectedCareType,
+    })
+    .then(res=>{
+      if(res.data.result==1){
+        alert("Data save successfully")
+        this.setState({
+          firstName: '',
+          lastName: '',
+          address1: '',
+          address2: '',
+          state: '',
+          country: '',
+          zipCode: '',
+          email: '',
+          selectedGender: 'female',
+          selectedBranch: 'Army',
+          selectedCareType: 'Feminine'
+        });
+      
+      }
+      else{
+        alert("Fail to save data")
+      }
+    })
+    .catch(err=>{
+      console.log(err)
+    })
+
     console.log(this.state);
   };
 

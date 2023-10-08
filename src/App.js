@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { CustomerForm, CustomNavbar, Donations } from "./Components";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';

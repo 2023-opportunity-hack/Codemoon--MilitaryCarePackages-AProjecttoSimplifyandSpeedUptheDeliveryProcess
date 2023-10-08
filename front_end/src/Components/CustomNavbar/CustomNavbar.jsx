@@ -4,6 +4,8 @@ import { Navbar, Container } from 'react-bootstrap';
 import "./CustomNavbar.css"
 
 const CustomNavbar = () => {
+  const jwtToken = localStorage.getItem('token');
+
   return (
     <Navbar className="custom-navbar" expand="lg">
       <Container>
@@ -25,15 +27,18 @@ const CustomNavbar = () => {
             <li className="nav-item">
               <Link to="/" className='nav-link text-white'> Home </Link> 
             </li>
-            <li className="nav-item">
-              <Link to="/donations" className='nav-link text-white'> Donations </Link>
-            </li>
-            <li className='nav-item'>
-              <Link to='/inventoryView' className='nav-link text-white'> Inventory </Link>
-            </li>
+            {jwtToken && ( <>
+              <li className="nav-item">
+                <Link to="/donations" className='nav-link text-white'> Donations </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/inventoryView' className='nav-link text-white'> Inventory </Link>
+              </li>
+              </>)}
+            {!jwtToken &&
             <li className='nav-item'>
               <Link to='/login' className='nav-link text-white'> Login </Link>
-            </li>
+            </li>}
           </ul>
         </Navbar.Collapse>
       </Container>

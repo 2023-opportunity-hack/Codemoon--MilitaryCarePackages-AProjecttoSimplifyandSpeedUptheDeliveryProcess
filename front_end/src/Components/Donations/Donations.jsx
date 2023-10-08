@@ -30,7 +30,7 @@ function Donations() {
 
     // Clear the form fields after submission
     setItemName('');
-    setItemQuantity('');
+    setItemQuantity('0');
     setExpiryDate('');
     setItemType('');
   };
@@ -45,8 +45,8 @@ function Donations() {
   }, []);
 
   return (
-    <Container>
-      <h4 className='flashy-highlight'>Join Us in Supporting Our Troops: Donate Essential Items Today!</h4>
+    <Container className='pt-5'>
+      <h4 className='flashy-highlight'>📢📢 Join Us in Supporting Our Troops: Donate Essential Items Today!</h4>
 
       <p className='text-center'>
       Our dedicated military members endure demanding conditions during their service. Your generosity in 
@@ -122,7 +122,6 @@ function Donations() {
                 onChange={(e) => setItemType(e.target.value)}
                 required
               >
-                <option value="">Select Item Type</option>
                 <option value="Cookies">Cookies</option>
                 <option value="Bread">Bread</option>
                 <option value="Canned food">Canned food</option>

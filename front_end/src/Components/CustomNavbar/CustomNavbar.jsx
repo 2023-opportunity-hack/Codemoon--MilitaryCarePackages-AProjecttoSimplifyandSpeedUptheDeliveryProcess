@@ -28,7 +28,9 @@ const CustomNavbar = () => {
             <li className="nav-item">
               <Link to="/donations" className='nav-link text-white'> Donations </Link>
             </li>
-            {/* Add more links as needed */}
+            <li className='nav-item'>
+              <Link to='/inventoryView' className='nav-link text-white'> Inventory </Link>
+            </li>
           </ul>
         </Navbar.Collapse>
       </Container>

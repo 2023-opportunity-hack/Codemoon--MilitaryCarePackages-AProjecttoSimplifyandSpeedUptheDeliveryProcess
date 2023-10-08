@@ -35,17 +35,15 @@ There are 3 entities
 
 1. Military Care Package Request
 ![CarePackageRequest](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/aabf1a82-bad1-4bd6-a599-40d6db9a0cfb)
-2. Shipping Label
-![ShippingLabel](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/04326096-99cf-4431-b93d-0bf9750e040b)
-3. ShippingLabelEmail
+2. ShippingLabelEmail
 ![ShippingLabelEmail](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/fa78703d-a93a-4a52-9e8a-34a652363a4c)
-4. Multilingual
+3. Multilingual
 ![Multilingual](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/6ea8f2d3-0642-4252-9e3c-a1d5a5767d6f)
-5. Donation Page - Shortest inventory list
+4. Donation Page - Shortest inventory list
 ![DonationPage1](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/c997c58a-bd37-4d1f-a14b-3da25ae9767f)
-6. Donation Page - Donating to the Blue Star Mothers of Maricopa
+5. Donation Page - Donating to the Blue Star Mothers of Maricopa
 ![DonationPage2](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/8e348c36-c29c-4315-83de-3caf6dd4ca1b)
-7. Website in another language
+6. Website in another language
 ![GujaratiLanguageWebsite](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/0d9d0009-0819-4173-beff-3a4b824b3ba6)
 
 
@@ -56,6 +54,8 @@ There are 3 entities
 1. ![LoginPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/64e9c01b-b841-4641-99cd-24f8a5f1b10e)
 2. ![InventoryPage](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/122e6f08-1237-46c1-9305-b39a453aada3)
 3. ![MilitaryMomPackageRequests](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/e238fee1-a9d8-4840-b328-6281d802d31a)
+4. Shipping Label
+![ShippingLabel](https://github.com/2023-opportunity-hack/Codemoon--MilitaryCarePackages-AProjecttoSimplifyandSpeedUptheDeliveryProcess/assets/59147991/04326096-99cf-4431-b93d-0bf9750e040b)
 
 
 ## Challenges
